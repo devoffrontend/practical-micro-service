@@ -33,7 +33,7 @@ model History {
   actionType      ActionType
   quantityChanged Int
   lastQuantity    Int
-  newQuantitt     Int
+  newQuantity     Int
   inventory       Inventory  @relation(fields: [inventoryId], references: [id])
   inventoryId     String
 }
